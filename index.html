@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kelana Noesantara - Travel & Food Blog</title>
+  <meta content="Explore the natural beauty and authentic culinary experiences of Indonesia with Kelana Noesantara." name="description">
+  <meta content="travel, food, Indonesia, adventure, culinary, blog, Nusantara" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=WorkroszWork+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1>Kelana Noesantara<span>.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="gallery.html">Galeri</a></li>
+          <!-- <li><a href="projects.html">Destinasi</a></li> -->
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Lainnya</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Tips Perjalanan</a></li>
+              <li class="dropdown"><a href="#"><span>Kuliner</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Makanan Tradisional</a></li>
+                  <li><a href="#">Resep Nusantara</a></li>
+                  <li><a href="#">Warung Legendaris</a></li>
+                  <li><a href="#">Tur Kuliner</a></li>
+                  <li><a href="#">Ulasan Rasa</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Panduan Wisata</a></li>
+              <li><a href="#">Cerita Perjalanan</a></li>
+              <li><a href="#">Komunitas</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Selamat Datang di <span>Kelana Noesantara</span></h2>
+            <p data-aos="fade-up">Jelajahi keindahan alam Nusantara dan nikmati cita rasa kuliner lokal yang autentik. Temukan inspirasi petualangan dan kelezatan dalam setiap perjalanan.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Mulai Jelajahi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+        <div class="row justify-content-between gy-4">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Petualangan & Kuliner Nusantara</h3>
+              <p>Kelana Noesantara mengajak Anda menjelajahi destinasi wisata alam dan budaya Indonesia, dari pantai tersembunyi hingga pegunungan megah, sambil menikmati kelezatan kuliner lokal.</p>
+              <p>Dapatkan panduan perjalanan, tips hemat, dan rekomendasi makanan autentik yang akan membuat setiap petualangan Anda tak terlupakan.</p>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Hubungi Kami</h3>
+              <p>Berbagi cerita perjalanan atau cari saran destinasi? Isi formulir ini!</p>
+              <div class="row gy-3">
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Nama" required>
+                </div>
+                <div class="col-md-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Telepon" required>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Pesan Anda" required></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Mengirim...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+                  <button type="submit">Kirim Pesan</button>
+                </div>
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- End Get Started Section -->
+
+    <!-- ======= Destinations Section ======= -->
+    <section id="destinations" class="constructions">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Destinasi Wisata</h2>
+          <p>Temukan keindahan alam dan budaya Indonesia, dari pulau eksotis hingga desa tradisional.</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/destinations/bali.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Bali</h4>
+                    <p>Nikmati pantai yang menakjubkan, pura yang megah, dan kuliner khas seperti babi guling di Pulau Dewata.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/destinations/yogyakarta.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Yogyakarta</h4>
+                    <p>Jelajahi Candi Borobudur, nikmati gudeg, dan rasakan budaya Jawa yang kaya.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/destinations/lombok.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Lombok</h4>
+                    <p>Pantai pasir putih, Gunung Rinjani, dan sate rembiga yang lezat menanti Anda.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/destinations/sumatera.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Sumatera</h4>
+                    <p>Danau Toba, rendang otentik, dan hutan tropis yang memukau.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+        </div>
+      </div>
+    </section><!-- End Destinations Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Apa saja?</h2>
+          <p>Kami menyediakan panduan dan inspirasi untuk perjalanan dan kuliner Anda di seluruh Nusantara.</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <h3>Panduan Wisata</h3>
+              <p>Rekomendasi destinasi, rute perjalanan, dan tips untuk petualangan yang tak terlupakan.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <h3>Tur Kuliner</h3>
+              <p>Pengalaman mencicipi makanan lokal dengan panduan ke warung dan restoran terbaik.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-camera"></i>
+              </div>
+              <h3>Fotografi Perjalanan</h3>
+              <p>Tips dan trik untuk mengabadikan momen indah selama perjalanan Anda.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-book"></i>
+              </div>
+              <h3>Blog Perjalanan</h3>
+              <p>Cerita inspiratif dan pengalaman pribadi dari petualangan di seluruh Indonesia.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-money-bill"></i>
+              </div>
+              <h3>Tips Hemat</h3>
+              <p>Cara menjelajahi Indonesia dengan anggaran terjangkau tanpa mengorbankan pengalaman.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <h3>Komunitas Traveler</h3>
+              <p>Bergabung dengan komunitas kami untuk berbagi cerita dan tips perjalanan.</p>
+              <a href="service-details.html" class="readmore stretched-link">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Alt Services Section ======= -->
+    <section id="alt-services" class="alt-services">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Jelajahi & Rasakan Nusantara</h3>
+            <p>Nikmati petualangan alam dan kuliner autentik bersama Kelana Noesantara. Dari destinasi tersembunyi hingga warung legendaris, kami hadir untuk menginspirasi.</p>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Destinasi Unik</a></h4>
+                <p>Temukan tempat-tempat tersembunyi yang jarang dikunjungi wisatawan.</p>
+              </div>
+            </div><!-- End Icon Box -->
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-airplane flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Kuliner Lokal</a></h4>
+                <p>Rekomendasi makanan khas yang wajib dicoba di setiap daerah.</p>
+              </div>
+            </div><!-- End Icon Box -->
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-camera flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Fotografi</a></h4>
+                <p>Abadikan momen perjalanan dengan tips fotografi dari kami.</p>
+              </div>
+            </div><!-- End Icon Box -->
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-journal-text flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Cerita Perjalanan</a></h4>
+                <p>Baca kisah petualangan kami yang penuh inspirasi.</p>
+              </div>
+            </div><!-- End Icon Box -->
+          </div>
+        </div>
+      </div>
+    </section><!-- End Alt Services Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+        <ul class="nav nav-tabs row g-2 d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>Alam</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Kuliner</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Budaya</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Tips</h4>
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>Keindahan Alam Indonesia</h3>
+                <p class="fst-italic">
+                  Dari gunung hingga laut, Indonesia menawarkan pemandangan alam yang memukau.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Pantai pasir putih di Bali dan Lombok.</li>
+                  <li><i class="bi bi-check2-all"></i> Gunung berapi seperti Bromo dan Rinjani.</li>
+                  <li><i class="bi bi-check2-all"></i> Hutan tropis dan air terjun di Sumatera dan Kalimantan.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/features-1.jpg" alt="" class="img-fluid rounded-3">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Cita Rasa Nusantara</h3>
+                <p class="fst-italic">
+                  Setiap daerah di Indonesia memiliki keunikan kuliner yang wajib dicoba.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Rendang dari Padang.</li>
+                  <li><i class="bi bi-check2-all"></i> Sate lilit khas Bali.</li>
+                  <li><i class="bi bi-check2-all"></i> Soto Betawi dan gudeg dari Yogyakarta.</li>
+                  <li><i class="bi bi-check2-all"></i> Makanan laut segar di Sulawesi.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.jpg" alt="" class="img-fluid rounded-3 shadow-lg">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Budaya yang Kaya</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Tarian tradisional seperti Kecak dan Saman.</li>
+                  <li><i class="bi bi-check2-all"></i> Pura dan candi bersejarah.</li>
+                  <li><i class="bi bi-check2-all"></i> Pasar tradisional dan kerajinan lokal.</li>
+                </ul>
+                <p class="fst-italic">
+                  Rasakan kekayaan budaya Indonesia melalui festival dan tradisi lokal.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.jpg" alt="" class="img-fluid rounded-3">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Tips Perjalanan</h3>
+                <p class="fst-italic">
+                  Persiapkan petualangan Anda dengan panduan praktis dari kami.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Cara hemat bepergian antar pulau.</li>
+                  <li><i class="bi bi-check2-all"></i> Memilih waktu terbaik untuk destinasi.</li>
+                  <li><i class="bi bi-check2-all"></i> Packing ringan untuk perjalanan panjang.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.jpg" alt="" class="img-fluid rounded-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="projects">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Galeri Petualangan</h2>
+          <p>Kumpulan foto dari destinasi wisata dan kuliner di seluruh Nusantara.</p>
+        </div>
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Semua</li>
+            <li data-filter=".filter-alam">Alam</li>
+            <li data-filter=".filter-kuliner">Kuliner</li>
+            <li data-filter=".filter-budaya">Budaya</li>
+          </ul>
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-alam">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/bromo.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Gunung Bromo</h4>
+                  <p>Saksikan matahari terbit yang spektakuler di Jawa Timur.</p>
+                  <a href="assets/img/gallery/bromo.jpg" title="Gunung Bromo" data-gallery="portfolio-gallery-alam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="destination-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-kuliner">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/rendang.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Rendang Padang</h4>
+                  <p>Cita rasa daging yang kaya rempah dari Sumatera Barat.</p>
+                  <a href="assets/img/gallery/rendang.jpg" title="Rendang Padang" data-gallery="portfolio-gallery-kuliner" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="culinary-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-budaya">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/kecak.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Tari Kecak</h4>
+                  <p>Tarian tradisional Bali yang memukau di Uluwatu.</p>
+                  <a href="assets/img/gallery/kecak.jpg" title="Tari Kecak" data-gallery="portfolio-gallery-budaya" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="culture-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-kuliner">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/nasi-goreng.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Rendang Padang</h4>
+                  <p>Cita rasa daging yang kaya rempah dari Sumatera Barat.</p>
+                  <a href="assets/img/gallery/nasi-goreng.jpg" title="Nasi Goreng" data-gallery="portfolio-gallery-kuliner" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="culinary-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-budaya">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/culture.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Tari Kecak</h4>
+                  <p>Tarian tradisional Bali yang memukau di Uluwatu.</p>
+                  <a href="assets/img/gallery/culture.jpg" title="kultur" data-gallery="portfolio-gallery-budaya" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="culture-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-alam">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/gallery/alam.jpg" class="img-fluid rounded-3" alt="">
+                <div class="portfolio-info">
+                  <h4>Gunung Bromo</h4>
+                  <p>Saksikan matahari terbit yang spektakuler di Jawa Timur.</p>
+                  <a href="assets/img/gallery/alam.jpg" title="Sawah" data-gallery="portfolio-gallery-alam" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="destination-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more gallery items as needed -->
+          </div>
+        </div>
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Testimoni Pembaca</h2>
+          <p>Kesan dari para traveler dan pecinta kuliner yang terinspirasi oleh Kelana Noesantara.</p>
+        </div>
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>John Cenna</h3>
+                  <h4>Traveler & Food Enthusiast</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Rekomendasi destinasi di Banyuwangi sangat membantu! Semua tempat luar biasa.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Fanny Christina</h3>
+                  <h4>Backpacker</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Tips hemat dari blog ini sangat cocok untuk solo traveler seperti saya.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Melisa Kartika</h3>
+                  <h4>Food Blogger</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Ulasan kuliner bikin saya berani coba makanan ekstrem di Sulawesi, dan enak!
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more testimonials as needed -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Artikel Terbaru</h2>
+          <p>Baca kisah perjalanan dan ulasan kuliner terbaru dari kami.</p>
+        </div>
+        <div class="row gy-5">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/article-main/bali.jpg" class="img-fluid" alt="">
+                <span class="post-date">12 Desember</span>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Petualangan di Bali</h3>
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Given Ezra</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Travel</span>
+                  </div>
+                </div>
+                <hr>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/article-main/rendang.jpg" class="img-fluid" alt="">
+                <span class="post-date">17 Juli</span>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Rendang: Cita Rasa Minang</h3>
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Daffa Dermawan</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Kuliner</span>
+                  </div>
+                </div>
+                <hr>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/article-main/borobudur.jpg" class="img-fluid" alt="">
+                <span class="post-date">5 September</span>
+              </div>
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title">Keajaiban Borobudur</h3>
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Budaya</span>
+                  </div>
+                </div>
+                <hr>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Kelana Noesantara</h3>
+              <p>
+                Jalan Petualang No.108<br>
+                Jakarta, Indonesia 12345<br><br>
+                <strong>Telepon:</strong> +62 812 3456 7890<br>
+                <strong>Email:</strong> hello@kelananoesantara.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center">
+                <i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Menu Utama</h4>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Galeri</a></li>
+              <li><a href="#">Destinasi</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Layanan Kami</h4>
+            <ul>
+              <li><a href="#">Panduan Wisata</a></li>
+              <li><a href="#">Tur Kuliner</a></li>
+              <li><a href="#">Tips Perjalanan</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-contact text-center text-md-start">
+            <h4>Hubungi Kami</h4>
+            <p>
+              Jalan Petualang No.108<br>
+              Jakarta, Indonesia 12345<br><br>
+              <strong>Telepon:</strong> +62 812 3456 7890<br>
+              <strong>Email:</strong> hello@kelananoesantara.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          © 2025 <strong><span>Kelana Noesantara</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">Given & Daffa</a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
